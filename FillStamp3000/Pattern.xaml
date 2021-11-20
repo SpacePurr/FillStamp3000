@@ -1,0 +1,19 @@
+﻿<Window x:Class="FillStamp3000.Pattern"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FillStamp3000"
+        mc:Ignorable="d"
+        Title="Pattern" Height="550" Width="650">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Первый лист">
+                <Image Source="Resources/1.png" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </TabItem>
+            <TabItem Header="Второй лист">
+                <Image Source="Resources/2.png" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
